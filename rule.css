@@ -1,0 +1,19 @@
+body {
+    background-image: url(Business\ Office\ Teamwork\ Hd\ Background\ Wallpaper\ Image\ For\ Free\ Download\ -\ Pngtree.jpeg);
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+
+}
+.header{
+    text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-block-start-color: red; 
+writing-mode: horizontal-tb;
+}
