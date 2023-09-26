@@ -1,0 +1,30 @@
+img {
+    width: 300px;
+    height: 400px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row{
+display: flex;
+}
+
+.row2 {
+    display:block ;
+}
+
+.row3 {
+    display: flex;
+}
+
+.row4 {
+    display: block;
+}
+

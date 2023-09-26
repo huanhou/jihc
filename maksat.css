@@ -17,7 +17,7 @@
 
 .topnav a:hover {
   background-color: #a6c5ea;
-  color: rgb(57, 120, 213);
+  color: rgb(17, 68, 178);
 }
 
 
@@ -31,7 +31,7 @@
   }
   body {
     font-family: "sans-serif";
-    background: #2a72ba;
+    background: #0474FB;
     color: #ecf0f1;
     line-height: 1.618em;
   }
