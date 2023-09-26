@@ -1,9 +1,37 @@
+
+.topnav {
+  background-color: #f9f6f6;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+.topnav a {
+  float: left;
+  color: #51a7dd;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+.topnav a:hover {
+  background-color: #a6c5ea;
+  color: rgb(57, 120, 213);
+}
+
+
+.topnav a.active {
+  background-color: #b8e4ec;
+  color: white;
+}
+
 * {
     box-sizing: border-box;
   }
   body {
-    font-family: "Open Sans";
-    background: #2c3e50;
+    font-family: "sans-serif";
+    background: #2a72ba;
     color: #ecf0f1;
     line-height: 1.618em;
   }
@@ -15,7 +43,7 @@
   .tabs {
     position: relative;
     margin: 3rem 0;
-    background: #1abc9c;
+    background: #3a82da;
     height: 14.75rem;
   }
   .tabs::before,
@@ -38,7 +66,7 @@
     line-height: 2.75em;
     height: 3em;
     padding: 0 1.618em;
-    background: #1abc9c;
+    background: #3a82da;
     border-right: 0.125rem solid #16a085;
     color: #fff;
     cursor: pointer;
@@ -50,7 +78,7 @@
     transition: top 0.25s;
   }
   .tab-content {
-    height: 12rem;
+    height: 37rem;
     position: absolute;
     z-index: 1;
     top: 2.75em;
@@ -78,10 +106,12 @@
   }
   
   a:hover{
-    background-color: #44c3e0;
+    background-color: #2c3e50;
+    color: #ecf0f1;
   }
 
   a{
+    font-family: sans-serif;
     color: rgb(248, 247, 245);
     margin: auto;
     margin-top: auto;
@@ -93,16 +123,48 @@
 	padding: 15px;
 	max-width: 80%;
 	position: relative;
+  text-align: center;
 	border-color: #f0f1f2;
 	border-width: 5px;
 	font-size: 18px;
+  justify-content: center;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
 h2 {
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: sans-serif;
 }
 
 h1 {
-    text-align: left;
+    font-family: sans-serif;
+    text-align: center;
+
 }
+
+h3 {
+  font-family: sans-serif;
+}
+img {
+  width: 1000px;
+  height: 1100px;
+  text-align: center;
+  padding: 10px;
+  margin-left: 0px ;
+  margin-left: 0px;
+}
+
+figure{
+  text-align: center;
+  display: block;
+  justify-content: center;
+  margin: -0px;
+  padding-left: 20px;
+  padding-right: 230px;
+}
+.lic{
+  padding-top: 700px;
+  margin-top: 10px;
+}
+
