@@ -1,4 +1,127 @@
 .logo{
-width: 20px;
-height: 20px;
+top: 0;
+}
+
+body{
+    background-image: url(https://educationusarussia.org/wp-content/uploads/2021/03/online_ekat2021.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px 900px;
+    height: 400vh;
+}
+.logo #logotxt{
+    margin-top: -52px;
+    margin-left: 90px;
+    font-size: 600px;
+    color: white;
+    font-weight: 1000;
+    cursor: pointer;
+}
+#QUOTE{
+    color: white;
+    font-size: 5em;
+    margin-top: 200px;
+    margin-left: 30px;
+}
+.teachers{
+    margin-top: 250px;
+    margin-left: 200px;
+}
+.teachers h1{
+    font-size: 3.5em;
+    margin-top: -10px;
+    margin-left: 390px;
+    margin-bottom: 120px;
+}
+.teachers #words{
+    font-size: 7em;
+    margin-left: 240px;
+    opacity: 5%;
+    margin-bottom: -100px;
+}
+
+.images{
+    display: inline-flex;
+    justify-content: center;
+}
+.images #img2{
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.images #img3{
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+.images #img4{
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.images #img5{
+    margin-left: 10px;
+}
+
+.images img:hover {
+    box-shadow:
+    1px 1px #0077ff,
+    2px 2px #0077ff,
+    3px 3px #0077ff,
+    4px 4px #0077ff,
+    5px 5px #0077ff,
+    6px 6px #0077ff;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+    transition: .5s ease;
+}
+
+.navbar{
+    display: flex;
+    top: 0;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 1000;
+}
+    
+    .navbar a {
+        text-decoration: none;
+        color: #FFF;
+        position: relative;
+        transition: color 0.3s;
+        margin-top: 0%;
+    }
+      
+    .navbar a:before {
+        content: '';
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background-color: #FFF;
+        transform: scaleX(0);
+        transition: transform 0.3s;
+    }
+
+.navbar a:hover {
+    color: #FFF;
+}
+.navbar a:hover:before {
+    transform: scaleX(1);
+}
+
+footer {
+    background-color:#0474FB;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Forum', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Noticia Text', serif;
+}
+
+figcaption{
+    text-align: center;
 }
