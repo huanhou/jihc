@@ -39,6 +39,9 @@
     max-width: 50rem;
     width: 100%;
     margin: 0 auto;
+    flex-wrap: wrap;
+flex-grow: 1;
+flex-shrink: 1;
   }
   .tabs {
     position: relative;
@@ -50,6 +53,9 @@
   .tabs::after {
     content: "";
     display: table;
+    flex-wrap: wrap;
+flex-grow: 1;
+flex-shrink: 1;
   }
   .tabs::after {
     clear: both;
@@ -59,6 +65,9 @@
   }
   .tab-switch {
     display: none;
+    flex-wrap: wrap;
+flex-grow: 1;
+flex-shrink: 1;
   }
   .tab-label {
     position: relative;
@@ -72,10 +81,16 @@
     cursor: pointer;
     top: 0;
     transition: all 0.25s;
+    flex-wrap: wrap;
+flex-grow: 1;
+flex-shrink: 1;
   }
   .tab-label:hover {
     top: -0.25rem;
     transition: top 0.25s;
+    flex-wrap: wrap;
+flex-grow: 1;
+flex-shrink: 1;
   }
   .tab-content {
     height: 37rem;
@@ -130,6 +145,9 @@
   justify-content: center;
   margin-left: 150px;
   margin-right: 150px;
+  flex-wrap: wrap;
+flex-grow: 1;
+flex-shrink: 1;
 }
 
 h2 {
